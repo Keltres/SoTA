@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.question {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.correct {
+    background: #d4edda; /* Зелёный фон для правильных */
+}
+
+.wrong {
+    background: #f8d7da; /* Красный фон для неправильных */
+}
+
+#pay-btn {
+    background: #6772e5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
